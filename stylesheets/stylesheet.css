@@ -59,23 +59,25 @@ body {
 }
 
 .section {
-    margin: 6rem 20%;
-    max-width: 800px;
-    min-width: 600px;
-}
-
-.headline span {
-    display: block;
-    font-size: 72px;
-    font-size: 4rem;
-    font-weight: 300;
-    line-height: 8rem;
-    text-align: center;
-    text-transform: uppercase;
+    margin: 108px auto;
+    margin: 6rem auto;
+    max-width: 810px;
+    max-width: 45rem;
+    min-width: 360px;
+    min-width: 20rem;
+    padding: 0 36px;
+    padding: 0 2rem;
 }
 
 .headline span {
     display: table;
+    font-size: 72px;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 144px;
+    line-height: 8rem;
+    text-align: center;
+    text-transform: uppercase;
     white-space: nowrap;
 }
 
@@ -85,6 +87,7 @@ body {
     content: '';
     display: table-cell;
     position: relative;
+    top: 72px;
     top: 4rem;
     width: 45%;
 }
@@ -102,7 +105,9 @@ body {
     font-size: 162px;
     font-size: 9rem;
     font-weight: 900;
+    line-height: 108px;
     line-height: 6rem;
+    padding-bottom: 0.3rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -119,12 +124,15 @@ body {
     font-size: 27px;
     font-size: 1.5rem;
     font-weight: 900;
+    margin: 0 0 18px 0;
     margin: 0 0 1rem 0;
     text-transform: uppercase;
 }
 .explanation p {
+    margin: 0 0 18px 0;
     margin: 0 0 1rem 0;
 }
 .explanation p  + h2 {
+    margin-top: 36px;
     margin-top: 2rem;
 }
