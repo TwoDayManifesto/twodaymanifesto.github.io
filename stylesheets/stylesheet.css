@@ -49,31 +49,14 @@ Theme Styles
 *******************************************************************************/
 
 body {
-  box-sizing: border-box;
-  color: #222222;
-  background: #F6F6F6;
-  font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background: #2B68AE;
+  box-sizing: border-box;
+  color: #F6F6F6;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  
-}
-
-h1 {
-}
-
-h2 {
-}
-
-h3 {
-}
-
-p {
-}
-
 
 .section {
     margin: 6rem 20%;
@@ -83,41 +66,49 @@ p {
 
 .headline span {
     display: block;
+    font-size: 72px;
     font-size: 4rem;
     font-weight: 300;
     line-height: 8rem;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .headline span {
     display: table;
     white-space: nowrap;
 }
+
 .headline span:before, 
 .headline span:after {
-      border-top: 1px solid #222;
-      content: '';
-      display: table-cell;
-      position: relative;
-      top: 4rem;
-      width: 45%;
+    border-top: 1px solid #F6F6F6;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 4rem;
+    width: 45%;
 }
-.headline span:before { right: 2%; }
-.headline span:after { left: 2%; }
 
+.headline span:before { 
+    right: 2%; 
+}
 
+.headline span:after { 
+    left: 2%; 
+}
 
 .headline strong {
     display: block;
+    font-size: 162px;
     font-size: 9rem;
     font-weight: 900;
     line-height: 6rem;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 .exhortation {
     display: block;
+    font-size: 36px;
     font-size: 2rem;
     font-style: italic;
     font-weight: 400;
@@ -125,9 +116,10 @@ p {
 }
 
 .explanation h2 {
-    margin: 0 0 1rem 0;
+    font-size: 27px;
     font-size: 1.5rem;
     font-weight: 900;
+    margin: 0 0 1rem 0;
     text-transform: uppercase;
 }
 .explanation p {
