@@ -52,15 +52,15 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #2B68AE;
   box-sizing: border-box;
-  color: #F6F6F6;
+  color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
 
 .section {
-    margin: 108px auto;
-    margin: 6rem auto;
+    margin: 54px auto;
+    margin: 3rem auto;
     max-width: 810px;
     max-width: 45rem;
     min-width: 360px;
@@ -69,13 +69,37 @@ body {
     padding: 0 2rem;
 }
 
+.section--title {
+    opacity: 0.9;
+}
+.section--manifesto {
+    margin-bottom: 81px;
+    margin-bottom: 4.5rem;
+}
+.section--explanation {
+    opacity: 0.9;
+}
+
+
+.headline strong {
+    display: block;
+    font-size: 126px;
+    font-size: 7rem;
+    font-weight: 900;
+    line-height: 90px;
+    line-height: 5rem;
+    padding-bottom: 0.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .headline span {
     display: table;
-    font-size: 72px;
-    font-size: 4rem;
+    font-size: 54px;
+    font-size: 3rem;
     font-weight: 300;
-    line-height: 144px;
-    line-height: 8rem;
+    line-height: 108px;
+    line-height: 6rem;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -87,8 +111,8 @@ body {
     content: '';
     display: table-cell;
     position: relative;
-    top: 72px;
-    top: 4rem;
+    top: 54px;
+    top: 3rem;
     width: 45%;
 }
 
@@ -100,17 +124,6 @@ body {
     left: 2%; 
 }
 
-.headline strong {
-    display: block;
-    font-size: 162px;
-    font-size: 9rem;
-    font-weight: 900;
-    line-height: 108px;
-    line-height: 6rem;
-    padding-bottom: 0.3rem;
-    text-align: center;
-    text-transform: uppercase;
-}
 .exhortation {
     display: block;
     font-size: 36px;
@@ -120,7 +133,7 @@ body {
     text-align: center
 }
 
-.explanation h2 {
+.section--explanation h2 {
     font-size: 27px;
     font-size: 1.5rem;
     font-weight: 900;
@@ -128,11 +141,11 @@ body {
     margin: 0 0 1rem 0;
     text-transform: uppercase;
 }
-.explanation p {
+.section--explanation p {
     margin: 0 0 18px 0;
     margin: 0 0 1rem 0;
 }
-.explanation p  + h2 {
+.section--explanation p  + h2 {
     margin-top: 36px;
     margin-top: 2rem;
 }
