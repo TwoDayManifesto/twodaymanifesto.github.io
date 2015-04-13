@@ -72,14 +72,15 @@ body {
 .section--title {
     opacity: 0.9;
 }
+
 .section--manifesto {
     margin-bottom: 81px;
     margin-bottom: 4.5rem;
 }
+
 .section--explanation {
     opacity: 0.9;
 }
-
 
 .headline strong {
     display: block;
@@ -107,21 +108,22 @@ body {
 
 .headline span:before, 
 .headline span:after {
-    border-top: 1px solid #F6F6F6;
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,0) 50%, rgb(255,255,255) 0%, rgba(255,255,255,0) 51%);
+    background-image: -o-linear-gradient(top, rgba(255,255,255,0) 50%, rgb(255,255,255) 0%, rgba(255,255,255,0) 51%);
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,0) 50%, rgb(255,255,255) 0%, rgba(255,255,255,0) 51%);
+    background-image: linear-gradient(top, rgba(255,255,255,0) 50%, rgb(255,255,255) 0%, rgba(255,255,255,0) 51%);
     content: '';
     display: table-cell;
     position: relative;
-    top: 54px;
-    top: 3rem;
     width: 45%;
 }
 
 .headline span:before { 
-    right: 2%; 
+    border-right: 1rem solid #2B68AE;
 }
 
 .headline span:after { 
-    left: 2%; 
+    border-left: 1rem solid #2B68AE;
 }
 
 .exhortation {
@@ -141,10 +143,12 @@ body {
     margin: 0 0 1rem 0;
     text-transform: uppercase;
 }
+
 .section--explanation p {
     margin: 0 0 18px 0;
     margin: 0 0 1rem 0;
 }
+
 .section--explanation p  + h2 {
     margin-top: 36px;
     margin-top: 2rem;
