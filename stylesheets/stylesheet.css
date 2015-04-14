@@ -144,6 +144,15 @@ body {
     text-transform: uppercase;
 }
 
+.section--explanation h3 {
+    font-size: 18px;
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+}
+
+
 .section--explanation p {
     margin: 0 0 18px 0;
     margin: 0 0 1rem 0;
