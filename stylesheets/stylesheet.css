@@ -55,7 +55,24 @@ body {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.5;
+}
+
+a,
+a:link,
+a:visited {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    font-weight: 400;
+    padding: 0 0.25rem;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background: #FFEE0D;
+    color: black;
 }
 
 .section {
@@ -161,4 +178,16 @@ body {
 .section--explanation p  + h2 {
     margin-top: 36px;
     margin-top: 2rem;
+}
+
+.section--explanation ul {
+    list-style: disc;
+    margin: 18px 0;
+    margin: 1rem 0;
+}
+
+.section--explanation li {
+    list-style: disc;
+    margin: 0 0 9px 0;
+    margin: 0 0 0.5rem 0;
 }
